@@ -1,7 +1,7 @@
-```markdown
-# 🏡 Land Price Predictor (Kannur District)
 
-_A Machine Learning project that predicts land prices per cent for Kerala’s Kannur district._
+# 🏡 Land Price Predictor
+
+_A Machine Learning project that predicts land prices per cent ._
 
 ---
 
@@ -19,23 +19,46 @@ This project is built using:
 
 ---
 
+
+## 🗂️ Project Structure
+```
+land-price-predictor/
+│
+├── data/
+│   └── land_price.csv
+│
+├── src/
+│   ├── preprocess.py          # Data cleaning & preprocessing
+│   ├── train_model.py         # Model training & evaluation
+│   ├── predict.py             # Prediction for new property
+│
+├── models/
+│   └── random_forest_model.pkl
+│
+├── config.json                # Configurations for file paths & hyperparameters
+├── requirements.txt           # Required dependencies
+├── .gitignore                 # Ignore unnecessary files
+└── README.md
+```
+
 ## ⚙️ Installation
 
 ### 1️⃣ Clone the Repository
-```bash
+
+````
 git clone https://github.com/Muhammed-Rizin/land-price-predictor.git
 cd land-price-predictor
 ````
 
 ### 2️⃣ Install Dependencies
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
 ### 3️⃣ Verify Dataset
 
-Make sure `kannur_land_price.csv` exists in the `data/` folder.
+Make sure `land_price.csv` exists in the `data/` folder.
 
 ---
 
@@ -46,7 +69,7 @@ You can easily adjust model parameters without editing code.
 
 ```json
 {
-  "data_path": "data/kannur_land_price.csv",
+  "data_path": "data/land_price.csv",
   "test_size": 0.2,
   "random_state": 42,
   "n_estimators": 100
@@ -59,7 +82,7 @@ You can easily adjust model parameters without editing code.
 
 To train the model on the Kannur dataset and save it:
 
-```bash
+```
 python src/train_model.py
 ```
 
