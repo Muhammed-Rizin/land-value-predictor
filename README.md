@@ -1,56 +1,67 @@
-
 # 🏡 Land Price Predictor
 
-_A Machine Learning project that predicts land prices per cent ._
+> **A production-ready Machine Learning + FastAPI project that predicts land price per cent for Kannur district (Kerala).**
 
 ---
 
 ## 📘 Overview
 
-The **Land Price Predictor** is a machine learning project that estimates the **price of land (in lakhs per cent)** based on real-world factors such as location, land area, distances to key facilities, and land type (Residential, Commercial, Agricultural, or Mixed).
+The **Land Price Predictor** is a machine learning project designed to estimate the **price of land (in lakhs per cent)** based on real-world factors such as location, land area, distances to key facilities, and land type.
 
-This project is built using:
+This project combines data science with a modern backend to provide real-time predictions.
 
-- 🧠 **Scikit-learn** – Machine Learning
-- 🐼 **Pandas** – Data manipulation
-- 🌍 **Synthetic but realistic Kannur dataset** – Created for data science modeling practice
-- 💾 **Joblib** – Model persistence
-- 🧰 **JSON configuration** – Easy parameter management
+### 🛠️ Tech Stack
+
+- 🧠 **Scikit-learn** – Machine Learning (Random Forest Regressor)
+- ⚡ **FastAPI** – High-performance backend API
+- 🐼 **Pandas** – Data manipulation & preprocessing
+- 🌍 **Synthetic Dataset** – Realistic data modeled for Kannur, Kerala
+- 💾 **Joblib** – Efficient model persistence
+- 🧰 **JSON Config** – Centralized parameter management
 
 ---
 
-
 ## 🗂️ Project Structure
-```
-land-price-predictor/
+
+```text
+server/
 │
-├── data/
-│   └── land_price.csv
+├── app.py                         # FastAPI main entry point
+├── api.py                         # API route logic (/api/predict)
+├── model_loader.py                # Utility to load model & preprocessing columns
+├── schemas.py                     # Pydantic models for request validation
+├── config.json                    # Project & Model configuration
 │
 ├── src/
-│   ├── preprocess.py          # Data cleaning & preprocessing
-│   ├── train_model.py         # Model training & evaluation
-│   ├── predict.py             # Prediction for new property
+│   ├── preprocess.py              # Data cleaning and feature engineering
+│   ├── train_model.py             # Script to train & evaluate the model
+│   └── __init__.py
+│
+├── data/
+│   └── land_price.csv             # Training Dataset
 │
 ├── models/
-│   └── random_forest_model.pkl
+│   └── random_forest_model.pkl    # Serialized ML model (generated after training)
 │
-├── config.json                # Configurations for file paths & hyperparameters
-├── requirements.txt           # Required dependencies
-├── .gitignore                 # Ignore unnecessary files
-└── README.md
+└── requirements.txt               # Python dependencies
 ```
+
+---
 
 ## ⚙️ Installation
 
+Follow these steps to set up the project locally.
+
 ### 1️⃣ Clone the Repository
 
-````
+```
 git clone https://github.com/Muhammed-Rizin/land-price-predictor.git
 cd land-price-predictor
-````
+```
 
 ### 2️⃣ Install Dependencies
+
+It is recommended to use a virtual environment.
 
 ```
 pip install -r requirements.txt
@@ -78,17 +89,19 @@ You can easily adjust model parameters without editing code.
 
 ---
 
-## 🧠 Model Training
+## 🚀 Usage: Machine Learning Pipeline
 
-To train the model on the Kannur dataset and save it:
+### 🧠 1. Train the Model
+
+Run the training script to process the data, train the Random Forest model, and save the `.pkl` file.
 
 ```
 python src/train_model.py
 ```
 
-✅ Output:
+**✅ Output:**
 
-```
+```text
 ✅ Model saved successfully as 'models/random_forest_model.pkl'
 
 📊 Model Evaluation:
@@ -96,19 +109,17 @@ Mean Absolute Error (MAE): 0.42
 R² Score: 0.93
 ```
 
----
+### 🔮 2. Run Prediction (CLI)
 
-## 🔮 Prediction
+You can test predictions directly via the command line before running the server.
 
-To predict the land price of a new property:
-
-```bash
+```
 python src/predict.py
 ```
 
-✅ Example Output:
+**✅ Output:**
 
-```
+```text
 ===========================================
 🏡 LAND PRICE PREDICTION RESULT
 -------------------------------------------
@@ -118,26 +129,63 @@ Predicted Price per Cent: 2.73 lakhs
 
 ---
 
-## 🧾 Example: New Property (Kannur - Pallikunnu)
+## 🌐 Usage: API Server
 
-```python
-new_property = {
-    "property_id": [5001],
-    "land_area_cents": [7.25],
-    "land_type_Commercial": [0],
-    "land_type_Residential": [1],
-    "distance_to_school_km": [0.9],
-    "distance_to_airport_km": [28.0],
-    "distance_to_railway_station_km": [3.5],
-    "distance_to_hospital_km": [1.5],
-    "distance_to_medical_college_km": [4.2],
-    "distance_to_bus_stop_km": [0.3],
-    "distance_to_market_km": [1.2],
-    "location_name_Kannur_City": [1],
-    "taluk_Kannur": [1],
-    "village_Pallikunnu": [1],
-    "latitude": [11.8805],
-    "longitude": [75.3820]
+### 1️⃣ Start the Server
+
+Launch the FastAPI application using Uvicorn.
+
+```
+uvicorn app:app --reload
+```
+
+### 2️⃣ Access the Interface & Endpoints
+
+Once the server is running, you can access the following endpoints:
+
+| Method | Endpoint       | Description                                                                      |
+| :----- | :------------- | :------------------------------------------------------------------------------- |
+| `GET`  | `/docs`        | **Swagger UI** <br>Interactive dashboard to test APIs directly in the browser.   |
+| `GET`  | `/redoc`       | **ReDoc** <br>Alternative, clean documentation view.                             |
+| `POST` | `/api/predict` | **Prediction API** <br>Main endpoint to generate price estimates (accepts JSON). |
+
+---
+
+---
+
+## 📡 API Documentation
+
+### Predict Land Price
+
+**Endpoint:** `POST /api/predict`
+
+#### 📥 Request Body (Example)
+
+```json
+{
+  "land_area_cents": 7.25,
+  "land_type": "Residential",
+  "taluk": "Kannur",
+  "village": "Pallikunnu",
+  "location_name": "Kannur City",
+  "latitude": 11.8745,
+  "longitude": 75.3704,
+  "distance_to_school_km": 1.5,
+  "distance_to_airport_km": 25.0,
+  "distance_to_railway_station_km": 3.0,
+  "distance_to_hospital_km": 2.0,
+  "distance_to_medical_college_km": 5.0,
+  "distance_to_bus_stop_km": 0.5,
+  "distance_to_market_km": 1.0
+}
+```
+
+#### 📤 Response (Example)
+
+```json
+{
+  "price_per_cent": 2.73,
+  "total_price": 19.79
 }
 ```
 
@@ -145,17 +193,19 @@ new_property = {
 
 ## 📊 Dataset Summary
 
-| Field                   | Description                                             |
-| ----------------------- | ------------------------------------------------------- |
-| `property_id`           | Unique ID for the property                              |
-| `location_name`         | Area in Kannur (e.g., Pallikunnu, Thalassery, Payyanur) |
-| `taluk`                 | Sub-division under the district                         |
-| `village`               | Local village name                                      |
-| `latitude`, `longitude` | Approx geolocation                                      |
-| `land_area_cents`       | Plot area in cents                                      |
-| `land_type`             | Residential / Commercial / Agricultural / Mixed         |
-| `distance_*`            | Distances from nearby amenities                         |
-| `price_lakhs`           | Total land price (lakhs INR)                            |
+The model is trained on a realistic dataset containing the following features:
+
+| Field                   | Description                                              |
+| :---------------------- | :------------------------------------------------------- |
+| `property_id`           | Unique ID for the property                               |
+| `location_name`         | Area in Kannur (e.g., Pallikunnu, Thalassery)            |
+| `taluk`                 | Sub-division under the district                          |
+| `village`               | Local village name                                       |
+| `latitude`, `longitude` | Approximate geolocation coordinates                      |
+| `land_area_cents`       | Plot area in cents                                       |
+| `land_type`             | Residential, Commercial, Agricultural, or Mixed          |
+| `distance_*`            | Distances to amenities (School, Hospital, Airport, etc.) |
+| `price_lakhs`           | **Target Variable:** Total land price (Lakhs INR)        |
 
 ---
 
@@ -163,12 +213,9 @@ new_property = {
 
 - **Algorithm:** Random Forest Regressor
 - **Training Split:** 80% Train / 20% Test
-- **Evaluation Metrics:**
-
-  - Mean Absolute Error (MAE)
-  - R² Score
-
-This setup provides **strong accuracy** and resistance to overfitting, ideal for real-estate prediction problems.
+- **Performance:**
+  - High R² Score indicates strong correlation.
+  - Low MAE ensures price estimates are close to actual market values.
 
 ---
 
