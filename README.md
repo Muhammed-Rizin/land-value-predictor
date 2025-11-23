@@ -151,8 +151,6 @@ Once the server is running, you can access the following endpoints:
 
 ---
 
----
-
 ## 📡 API Documentation
 
 ### Predict Land Price
