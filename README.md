@@ -176,7 +176,7 @@ This setup provides **strong accuracy** and resistance to overfitting, ideal for
 
 **Muhammed Rizin**
 📍 Kerala, India
-💻 Full-Stack & ML Developer
+💻 Full-Stack Developer
 🔗 [GitHub → Muhammed-Rizin](https://github.com/Muhammed-Rizin)
 🔗 [LeetCode → muhammed-rizin](https://leetcode.com/muhammed-rizin)
 
