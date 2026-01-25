@@ -5,6 +5,14 @@ import pandas as pd
 
 router = APIRouter(prefix="/api", tags=["Prediction"])
 
+@router.get("/health", tags=["Health"])
+def health_check():
+    return {
+        "status": "ok",
+        "service": "land-price-predictor",
+        "model_loaded": model is not None
+    }
+
 @router.post("/predict")
 def predict_price(payload: LandRequest):
     # Convert request body to DataFrame
