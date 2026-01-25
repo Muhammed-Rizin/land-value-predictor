@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import Navbar from "./components/layout/Navbar";
 import Container from "./components/layout/Container";
@@ -31,6 +31,8 @@ import {
 import AreaName from "./components/inputs/AreaName";
 import PlotArea from "./components/inputs/PlotArea";
 
+const API_URL = import.meta.env.VITE_API_URL;
+
 export default function App() {
   const [formData, setFormData] = useState({
     taluk: "",
@@ -52,16 +54,12 @@ export default function App() {
   });
 
   const [prediction, setPrediction] = useState(null);
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState({});
   const [error, setError] = useState(null);
 
-  // -----------------------------------------
-  // HANDLE INPUT CHANGES
-  // -----------------------------------------
   const handleChange = (e) => {
     const { name, value } = e.target;
 
-    // Taluk change resets village + coords
     if (name === "taluk") {
       setFormData((prev) => ({
         ...prev,
@@ -73,7 +71,6 @@ export default function App() {
       return;
     }
 
-    // Village change → auto-fill lat/lon
     if (name === "village") {
       const geo = TALUK_VILLAGE_GEO[formData.taluk][value];
 
@@ -98,11 +95,19 @@ export default function App() {
     setFormData((prev) => ({ ...prev, [name]: parseFloat(value) }));
   };
 
-  // -----------------------------------------
-  // PREDICT LAND PRICE
-  // -----------------------------------------
+  useEffect(() => {
+    const handleWakeServer = async () => {
+      try {
+        await fetch(`${API_URL}/health`);
+      } catch (error) {
+        console.error(error);
+      }
+    };
+    handleWakeServer();
+  }, []);
+
   const handlePredict = async () => {
-    setLoading(true);
+    setLoading((prev) => ({ ...prev, submit: true }));
     setError(null);
     setPrediction(null);
 
@@ -111,7 +116,8 @@ export default function App() {
 
     if (missing.length > 0) {
       setError("Please fill all required fields.");
-      setLoading(false);
+
+      setLoading((prev) => ({ ...prev, submit: false }));
       return;
     }
 
@@ -131,7 +137,7 @@ export default function App() {
       setError("Could not reach backend. Is FastAPI running?");
     }
 
-    setLoading(false);
+    setLoading((prev) => ({ ...prev, submit: false }));
   };
 
   return (
@@ -285,17 +291,17 @@ export default function App() {
           <div className="lg:col-span-5 space-y-6 sticky top-24">
             <button
               onClick={handlePredict}
-              disabled={loading}
+              disabled={loading.submit}
               className={`
                   w-full py-4 rounded-xl font-bold text-lg shadow-lg flex items-center justify-center gap-3 transition-all duration-300 transform active:scale-[0.98]
                   ${
-                    loading
+                    loading.submit
                       ? "bg-slate-100 text-slate-400 cursor-not-allowed border border-slate-200"
                       : "bg-emerald-600 hover:bg-emerald-700 text-white hover:shadow-emerald-500/30"
                   }
                 `}
             >
-              {loading ? (
+              {loading.submit ? (
                 <>
                   <svg
                     className="animate-spin h-5 w-5 text-current"
