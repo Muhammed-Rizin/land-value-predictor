@@ -1,0 +1,181 @@
+property_id,location_name,taluk,village,latitude,longitude,land_area_cents,land_type,distance_to_school_km,distance_to_airport_km,distance_to_railway_station_km,distance_to_hospital_km,distance_to_medical_college_km,distance_to_bus_stop_km,distance_to_market_km,price_lakhs
+3001,Kannur City,Kannur,Pallikunnu,11.8800,75.3850,5.00,Residential,0.5,23.0,2.0,1.2,3.5,0.2,0.8,7.50
+3002,Kannur City,Kannur,Chalad,11.8740,75.3710,4.00,Residential,0.4,23.5,1.8,0.9,3.2,0.1,0.6,6.00
+3003,Dharmadam,Kannur,Dharmadam,11.9005,75.3702,6.50,Residential,0.6,23.8,2.5,1.0,4.0,0.3,1.0,12.35
+3004,Valapattanam,Kannur,Valapattanam,11.8580,75.3725,10.00,Agricultural,1.5,24.5,6.0,2.8,6.5,0.5,1.8,15.00
+3005,Thottada,Kannur,Thottada,11.8330,75.3660,3.00,Residential,0.3,25.0,3.0,0.8,2.9,0.2,0.5,5.10
+3006,Azhikode,Thalassery,Azhikode,11.7560,75.5170,8.50,Mixed,0.8,21.0,12.0,3.2,8.0,0.6,2.1,25.50
+3007,Thalassery Town,Thalassery,Thalassery,11.7480,75.4890,4.25,Residential,0.4,21.5,1.2,0.9,3.0,0.2,0.7,6.80
+3008,Panoor,Taliparamba,Panoor,11.9170,75.5580,6.00,Residential,0.7,32.0,18.0,3.0,12.0,0.4,1.5,11.40
+3009,Mattannur,Iritty,Mattannur,11.9215,75.4850,7.00,Commercial,0.9,3.0,22.0,2.5,2.8,0.6,1.9,35.00
+3010,Mattannur,Iritty,Vengad,11.9150,75.4800,12.00,Mixed,1.2,3.5,21.0,4.0,3.5,0.8,2.5,70.00
+3011,Kuthuparamba,Kuthuparamba,Kuthuparamba,11.7900,75.5320,5.50,Residential,0.6,28.0,14.0,2.2,10.0,0.3,1.2,9.25
+3012,Payyanur,Payyanur,Peralam,12.0940,75.2020,9.00,Agricultural,1.8,60.0,6.0,8.0,20.0,1.0,3.2,22.50
+3013,Peravoor,Iritty,Peravoor,11.8410,75.6800,15.00,Agricultural,3.5,45.0,35.0,10.0,30.0,2.0,6.5,45.00
+3014,Kannadiparamba,Kannadiparamba,Kannadiparamba,11.9700,75.4050,4.50,Residential,0.7,26.0,7.0,1.8,6.0,0.4,1.0,6.80
+3015,Peringathur,Thalassery,Peringathur,11.8690,75.4920,3.75,Residential,0.5,22.0,4.5,1.5,4.0,0.3,0.9,5.25
+3016,Beypore,Kozhikode,Beypore,11.2330,75.7700,20.00,Agricultural,2.5,95.0,90.0,6.0,60.0,2.0,4.0,80.00
+3017,Elayavoor,Kannur,Elayavoor,11.9300,75.3750,7.50,Residential,0.9,24.0,3.5,2.1,3.8,0.6,1.4,13.50
+3018,Thaliparamba,Taliparamba,Thaliparamba,12.0600,75.3560,6.25,Residential,0.6,38.0,8.0,2.0,14.0,0.5,1.6,10.00
+3019,Kuttiyattoor,Thalassery,Kuttiyattoor,11.7600,75.5000,5.00,Residential,0.5,22.0,2.5,1.2,3.2,0.3,0.9,7.00
+3020,Kanhirode,Kannur,Kanhirode,11.8600,75.3920,3.00,Residential,0.4,24.0,2.0,1.0,3.4,0.2,0.6,4.75
+3021,Panniyannur,Thalassery,Panniyannur,11.7605,75.5200,4.50,Residential,0.6,21.8,3.0,1.6,3.6,0.3,0.8,6.10
+3022,Kolavallur,Thaliparamba,Kolavallur,12.1200,75.3770,8.00,Agricultural,2.0,40.0,15.0,4.5,14.0,0.9,2.6,18.00
+3023,Nediyanga,Kannur,Nediyanga,11.9000,75.4300,10.00,Mixed,1.5,22.0,5.0,3.0,5.5,0.7,2.0,28.50
+3024,Chengalayi,Kannur,Chengalayi,11.8550,75.3600,2.50,Residential,0.3,24.0,3.0,0.8,3.0,0.2,0.7,4.00
+3025,Puzhathi,Payyanur,Puzhathi,12.0720,75.2580,14.00,Agricultural,3.0,58.0,10.0,6.0,22.0,1.2,4.5,38.50
+3026,Edakkad,Thalassery,Edakkad,11.7540,75.5030,6.75,Residential,0.8,21.2,2.0,1.8,3.1,0.4,1.0,11.50
+3027,Kodiyeri,Kannur,Kodiyeri,11.9020,75.4100,9.50,Residential,1.0,20.5,5.5,2.4,4.8,0.6,1.9,20.25
+3028,Udma,Payyanur,Udma,12.0890,75.2220,7.25,Residential,0.9,62.0,12.0,4.0,25.0,0.6,2.3,15.60
+3029,Kadirur,Kannur,Kadirur,11.8745,75.3728,3.25,Residential,0.4,23.0,1.5,1.0,3.2,0.3,0.7,5.10
+3030,Peringome,Payyanur,Peringome,12.1090,75.2530,11.00,Agricultural,4.0,70.0,15.0,9.0,28.0,1.5,5.0,44.00
+3031,Alakode,Iritty,Alakode,11.9570,75.8070,18.00,Agricultural,5.0,80.0,40.0,12.0,45.0,2.5,6.8,68.00
+3032,Kottayam-Puram,Kannur,Kottayam,11.8698,75.3730,2.00,Residential,0.2,23.5,1.0,0.7,2.8,0.1,0.6,3.20
+3033,Pallikkunnu,Kannur,Pallikkunnu,11.8830,75.3680,6.00,Residential,0.4,23.0,2.0,1.2,3.4,0.3,0.9,12.00
+3034,Cherukunnu,Thaliparamba,Cherukunnu,12.0900,75.3620,8.50,Residential,0.9,37.0,10.0,3.0,13.0,0.6,2.0,18.70
+3035,Koodali,Thaliparamba,Koodali,12.0630,75.3870,5.75,Residential,0.7,36.0,9.0,2.1,12.5,0.5,1.8,10.30
+3036,Kolachery,Thalassery,Kolachery,11.7700,75.5150,4.00,Residential,0.6,21.7,2.8,1.4,3.8,0.3,0.9,6.40
+3037,Thaliparamba Town,Taliparamba,Thaliparamba,12.0570,75.3520,9.00,Commercial,0.6,37.0,7.5,1.8,13.0,0.5,2.4,95.00
+3038,Chokli,Thalassery,Chokli,11.8850,75.5610,6.00,Residential,0.8,30.0,11.0,2.8,16.0,0.7,2.1,13.80
+3039,Mattanur,Mattanur,Mattanur,11.9230,75.4790,4.50,Residential,0.5,2.5,22.0,1.5,2.4,0.4,1.0,9.50
+3040,Mayyil,Taliparamba,Mayyil,12.0430,75.4100,10.00,Agricultural,2.0,42.0,11.0,4.0,16.0,1.0,3.0,24.00
+3041,Kodungallur,Kannur,Kodungallur,11.8880,75.3900,7.00,Residential,0.7,24.0,3.5,1.7,3.8,0.5,1.5,12.60
+3042,Pattanayi,Payyanur,Pattanayi,12.0800,75.2450,5.50,Residential,0.6,60.0,13.0,3.5,23.0,0.6,2.0,11.00
+3043,Peravoor Town,Iritty,Peravoor,11.8380,75.6750,6.75,Residential,0.8,48.0,36.0,3.0,33.0,0.8,2.2,14.50
+3044,St.Joseph Colony,Kannur,St.Joseph,11.8825,75.3805,3.50,Residential,0.3,23.0,1.5,0.9,3.1,0.2,0.7,5.80
+3045,Maruthonkara,Thaliparamba,Maruthonkara,12.0200,75.3950,12.00,Agricultural,3.0,39.0,13.0,6.5,15.0,1.4,4.0,36.00
+3046,Puthiyatheru,Kannur,Puthiyatheru,11.8730,75.3600,2.50,Residential,0.2,24.0,1.0,0.5,3.0,0.1,0.5,3.75
+3047,Palayad,Kannur,Palayad,11.9300,75.4170,5.00,Residential,0.6,22.5,3.5,1.8,4.0,0.4,1.1,8.50
+3048,Vengalam,Kannur,Vengalam,11.9500,75.4300,9.00,Mixed,1.1,21.0,4.0,2.5,4.5,0.8,2.0,22.00
+3049,Poovam,Kannur,Poovam,11.9600,75.4440,6.25,Residential,0.7,20.5,4.5,1.6,4.2,0.5,1.3,12.20
+3050,Cheemeni,Payyanur,Cheemeni,12.1160,75.2240,14.50,Agricultural,3.5,68.0,18.0,8.0,26.0,1.6,5.2,50.50
+3051,Thrikaripur,Payyanur,Thrikaripur,12.3160,75.0660,4.25,Residential,0.5,85.0,30.0,3.5,40.0,0.6,2.5,9.00
+3052,Panniyoor,Kannur,Panniyoor,11.9180,75.4210,7.75,Residential,0.9,25.0,5.5,2.4,4.6,0.7,1.6,14.80
+3053,Mattannur East,Mattanur,Kannathur,11.9280,75.4880,3.00,Residential,0.4,2.0,21.0,1.0,2.5,0.3,0.7,6.20
+3054,Palayad East,Kannur,Palayad East,11.9350,75.4200,2.75,Residential,0.3,22.0,3.0,0.8,3.2,0.2,0.6,4.50
+3055,Anjarakandy,Thalassery,Anjarakandy,11.8600,75.4870,8.50,Residential,0.9,24.0,9.0,2.5,5.0,0.6,1.9,17.00
+3056,Irikkur,Thaliparamba,Irikkur,11.8500,75.4250,6.00,Residential,0.7,38.0,20.0,2.8,14.0,0.6,1.6,12.60
+3057,Chandragiri,Thalassery,Chandragiri,11.7430,75.5000,5.50,Residential,0.6,22.0,2.5,1.2,3.5,0.4,1.0,10.00
+3058,Panoor East,Panoor,Panoor East,11.9200,75.5585,7.00,Mixed,1.0,33.0,18.5,3.2,11.5,0.9,2.3,20.80
+3059,Vattapara,Kannur,Vattapara,11.9000,75.4100,4.50,Residential,0.5,23.0,3.2,1.3,3.6,0.3,0.8,7.40
+3060,Poovathingal,Thaliparamba,Poovathingal,12.0700,75.3900,9.75,Agricultural,2.5,38.0,10.0,5.5,14.0,1.0,3.2,30.00
+3061,Kuthuparamba East,Kuthuparamba,Kuthuparamba East,11.7905,75.5310,3.25,Residential,0.4,28.5,14.0,1.6,10.5,0.3,1.0,5.50
+3062,Mangattuparamba,Kannur,Mangattuparamba,11.8900,75.3880,6.00,Residential,0.6,23.0,2.7,1.9,3.9,0.5,1.2,11.00
+3063,Peralassery,Thaliparamba,Peralassery,12.0470,75.3680,8.25,Residential,0.9,36.0,9.5,3.0,13.2,0.7,2.0,19.00
+3064,Thabore,Taliparamba,Thabore,12.0300,75.3500,11.50,Agricultural,3.2,35.0,12.0,7.0,13.5,1.8,4.0,40.00
+3065,Chokli East,Thalassery,Chokli East,11.8920,75.5630,5.25,Residential,0.6,29.0,11.5,2.2,15.0,0.5,1.8,10.75
+3066,Ulikkal,Iritty,Ulikkal,11.9790,75.6470,14.00,Agricultural,4.5,52.0,38.0,10.0,42.0,2.2,5.5,60.00
+3067,Kodakara,Kannur,Kodakara,11.8570,75.3840,2.00,Residential,0.3,24.0,2.0,0.9,3.1,0.1,0.5,3.60
+3068,Choondal,Kannur,Choondal,11.9120,75.3990,4.75,Residential,0.6,23.0,3.0,1.6,3.8,0.3,1.0,8.80
+3069,Perumthanni,Kannur,Perumthanni,11.8690,75.3780,6.50,Residential,0.7,23.5,3.8,2.0,4.0,0.5,1.3,12.75
+3070,Thottada South,Kannur,Thottada South,11.8260,75.3650,3.50,Residential,0.4,25.0,3.5,1.0,2.9,0.2,0.6,5.30
+3071,Khozhikode,Kannur,Kozhikode?,11.2300,75.7660,10.00,Agricultural,2.8,98.0,92.0,7.0,61.0,2.0,4.5,85.00
+3072,Peralam,Payyanur,Peralam,12.0990,75.2050,8.00,Residential,0.9,63.0,8.0,3.0,24.0,0.6,2.1,17.20
+3073,Aralam,Iritty,Aralam,11.8000,75.7830,16.00,Agricultural,5.5,85.0,48.0,14.0,50.0,3.0,7.0,75.00
+3074,Payyannur Town,Payyanur,Payyannur,12.0950,75.2025,4.00,Commercial,0.5,62.0,0.8,1.5,26.0,0.2,1.0,60.00
+3075,Muzhayur,Thaliparamba,Muzhayur,12.0340,75.3600,5.50,Residential,0.6,36.0,10.0,2.0,12.0,0.4,1.4,10.90
+3076,Kalliasseri,Thaliparamba,Kalliasseri,12.0300,75.2810,9.00,Residential,0.8,39.0,6.5,3.0,12.5,0.7,2.0,21.50
+3077,Aroli,Kannur,Aroli,11.8900,75.3700,3.00,Residential,0.4,23.0,2.0,1.0,3.2,0.2,0.7,4.90
+3078,Panoor West,Panoor,Panoor West,11.9155,75.5550,7.25,Residential,0.8,33.0,17.0,3.1,11.0,0.6,2.0,16.50
+3079,Mangattidam,Kannur,Mangattidam,11.9200,75.3710,4.25,Residential,0.5,23.0,2.2,1.4,3.6,0.3,0.9,6.30
+3080,Edacheri,Payyanur,Edacheri,12.1100,75.2430,12.50,Agricultural,3.0,66.0,20.0,7.5,28.0,1.8,4.8,55.00
+4001,Taliparamba,Payyanur,Kuttiyattoor,11.9156,75.2623,9.18,Residential,1.2,4.5,1.3,5.8,41.1,0.3,4.9,32.94
+4002,Kuthuparamba,Iritty,Kanhirode,11.9804,75.642,3.79,Commercial,0.6,29.8,6.4,6.7,29.9,0.4,3.8,41.6
+4003,Thalassery,Kannur,Peringome,11.7796,75.58,15.1,Agricultural,0.7,27.2,16.8,9.6,44.9,0.7,2.3,217.23
+4004,Iritty,Thalassery,Payyanur,12.2901,75.5547,19.35,Agricultural,1.1,32.6,16.2,8.0,27.0,0.2,2.2,247.58
+4005,Mattannur,Payyanur,Kadirur,11.854,75.6208,5.57,Residential,2.8,47.6,38.9,3.2,24.0,1.5,3.8,17.75
+4006,Kannur City,Iritty,Panniyannur,11.822,75.2258,8.21,Mixed,2.4,38.6,37.8,8.5,10.6,0.3,5.3,45.56
+4007,Thalassery,Taliparamba,Thaliparamba,11.8144,75.4391,18.2,Mixed,1.7,68.2,7.9,1.0,2.6,0.7,4.1,104.35
+4008,Iritty,Payyanur,Panniyannur,11.7581,75.6345,12.2,Mixed,2.9,6.0,7.4,6.4,22.7,0.4,2.4,79.09
+4009,Valapattanam,Payyanur,Chengalayi,11.7916,75.5255,2.34,Residential,2.1,58.7,26.3,3.8,28.0,1.4,2.4,5.9
+4010,Kuthuparamba,Payyanur,Kanhirode,11.9438,75.6796,3.08,Residential,1.6,48.6,14.1,6.5,7.9,0.2,2.5,11.91
+4011,Payyanur,Kannur,Alakode,11.9991,75.64,19.65,Agricultural,1.9,18.4,39.9,5.4,21.6,0.6,5.5,171.86
+4012,Valapattanam,Iritty,Elayavoor,11.834,75.6011,15.17,Mixed,1.5,56.5,36.6,7.9,44.0,1.1,3.6,60.99
+4013,Mattannur,Payyanur,Valapattanam,11.7832,75.586,8.19,Commercial,0.5,26.6,35.9,4.5,48.2,1.2,0.9,52.43
+4014,Payyanur,Thalassery,Dharmadam,11.746,75.644,6.62,Mixed,1.5,12.2,4.2,2.9,36.4,0.7,5.3,19.77
+4015,Valapattanam,Thalassery,Edakkad,12.2939,75.3132,11.39,Commercial,1.6,16.8,18.0,9.4,42.7,0.9,0.5,72.53
+4016,Panoor,Iritty,Kanhirode,12.0085,75.429,15.34,Residential,1.0,9.2,19.7,5.1,35.8,1.3,3.3,21.9
+4017,Kannur City,Iritty,Panniyannur,11.9915,75.2196,18.43,Commercial,2.8,78.9,30.6,3.8,46.7,1.0,1.5,56.86
+4018,Panoor,Payyanur,Alakode,12.0606,75.4144,13.12,Mixed,0.7,65.1,15.7,9.6,12.1,1.7,5.9,62.1
+4019,Kuthuparamba,Taliparamba,Dharmadam,11.9411,75.2111,15.29,Commercial,0.6,19.2,18.7,1.0,29.7,1.5,2.9,86.55
+4020,Mattannur,Kannur,Elayavoor,12.0556,75.2699,19.65,Commercial,1.7,39.2,10.7,6.3,37.1,2.0,2.2,114.05
+4021,Panoor,Taliparamba,Kodiyeri,12.1143,75.3837,2.29,Mixed,2.5,37.7,10.0,5.4,8.6,1.9,5.5,6.27
+4022,Valapattanam,Kannur,Kuttiyattoor,11.9824,75.3062,12.35,Agricultural,2.0,68.7,4.1,1.6,48.9,0.9,1.9,168.42
+4023,Valapattanam,Kannur,Azhikode,12.0597,75.4235,16.46,Residential,0.5,29.8,27.3,2.7,33.4,1.7,3.7,45.16
+4024,Iritty,Thalassery,Payyanur,11.8459,75.6099,12.46,Mixed,1.7,27.7,15.8,1.1,40.2,0.8,3.3,65.2
+4025,Panoor,Payyanur,Kuttiyattoor,11.8698,75.6551,15.38,Residential,1.9,29.7,29.7,9.0,18.8,2.0,1.4,39.35
+4026,Iritty,Kannur,Panniyannur,11.8671,75.264,18.42,Agricultural,2.3,29.7,28.8,0.9,46.6,1.1,3.6,218.88
+4027,Valapattanam,Iritty,Panniyannur,11.85,75.2784,17.71,Commercial,1.3,20.5,38.6,1.7,36.2,1.8,1.1,137.84
+4028,Valapattanam,Payyanur,Thottada,11.9096,75.3348,13.84,Residential,0.6,14.6,8.3,7.5,21.4,0.7,3.2,22.51
+4029,Panoor,Thalassery,Chengalayi,11.8176,75.4121,16.46,Agricultural,2.4,75.4,26.9,5.2,39.6,0.6,5.2,173.61
+4030,Mattannur,Thalassery,Valapattanam,12.1975,75.6741,13.81,Commercial,1.4,77.0,22.8,6.9,32.0,1.4,0.7,140.8
+4031,Kannur City,Payyanur,Pallikunnu,11.8949,75.2098,19.0,Residential,1.8,62.6,25.1,10.0,19.8,1.7,2.5,62.56
+4032,Payyanur,Thalassery,Mattannur,11.87,75.2659,3.6,Commercial,1.9,31.4,38.1,2.9,48.1,0.9,5.7,25.95
+4033,Panoor,Payyanur,Nediyanga,11.7276,75.5224,7.43,Mixed,1.4,33.0,33.8,3.7,30.4,1.9,1.0,34.68
+4034,Thalassery,Iritty,Kanhirode,11.9757,75.6286,15.94,Residential,2.3,6.5,36.2,3.9,26.5,0.7,4.3,16.82
+4035,Panoor,Payyanur,Kolavallur,12.2833,75.3347,17.04,Commercial,1.5,14.4,16.8,2.9,39.0,1.3,2.6,53.1
+4036,Mattannur,Taliparamba,Kodiyeri,12.0321,75.3594,13.71,Mixed,1.6,70.6,32.6,7.8,29.5,0.8,2.6,76.85
+4037,Iritty,Payyanur,Dharmadam,12.0974,75.4625,3.53,Commercial,1.7,23.3,12.1,1.1,28.9,0.6,4.8,32.97
+4038,Kuthuparamba,Payyanur,Panoor,12.256,75.3019,2.03,Mixed,2.1,34.7,24.3,7.5,6.1,1.9,2.4,12.16
+4039,Taliparamba,Thalassery,Alakode,11.8312,75.648,2.11,Agricultural,2.7,7.4,39.8,6.6,15.1,0.8,4.4,22.37
+4040,Chokli,Payyanur,Panoor,11.7635,75.4856,3.24,Commercial,2.1,73.8,2.2,5.0,22.4,1.8,0.9,20.12
+4041,Payyanur,Iritty,Edakkad,11.8821,75.3608,15.05,Residential,1.9,57.0,32.1,0.7,43.1,0.5,1.4,28.11
+4042,Panoor,Payyanur,Edakkad,12.0022,75.4271,13.96,Residential,1.0,17.6,20.0,6.2,33.5,0.8,2.9,32.06
+4043,Kannur City,Iritty,Edakkad,12.1778,75.6845,11.66,Mixed,0.4,74.7,39.4,1.4,25.0,1.9,2.2,83.73
+4044,Chokli,Iritty,Peravoor,11.8276,75.3293,13.81,Agricultural,1.4,7.5,11.1,7.5,3.2,0.8,6.0,207.78
+4045,Taliparamba,Thalassery,Azhikode,11.8726,75.3254,16.35,Agricultural,2.5,44.7,22.1,5.6,7.6,0.9,2.9,110.47
+4046,Taliparamba,Taliparamba,Peringome,11.7872,75.4607,4.06,Agricultural,1.8,3.3,14.9,4.9,29.9,0.5,5.6,39.14
+4047,Valapattanam,Iritty,Kuttiyattoor,11.9719,75.3607,4.58,Residential,1.7,63.8,11.6,8.7,5.3,0.2,1.2,16.11
+4048,Iritty,Thalassery,Edakkad,12.1985,75.6126,5.68,Commercial,0.5,50.0,37.3,2.3,34.6,1.5,0.7,54.07
+4049,Kannur City,Taliparamba,Peringome,11.9669,75.4623,12.85,Mixed,0.9,69.0,38.5,1.8,35.4,0.4,0.5,78.13
+4050,Mattannur,Kannur,Chalad,11.9723,75.4259,16.89,Commercial,0.7,23.8,33.1,4.1,35.6,1.0,4.2,141.55
+4051,Thalassery,Taliparamba,Kolavallur,12.2221,75.6797,18.38,Residential,1.4,35.0,29.0,6.5,40.7,0.1,5.0,47.74
+4052,Thalassery,Payyanur,Kadirur,12.1006,75.5252,11.93,Commercial,2.9,22.9,13.6,1.7,48.1,1.9,4.2,134.62
+4053,Iritty,Payyanur,Kadirur,11.7773,75.4572,17.04,Mixed,1.3,6.6,21.7,4.3,26.7,0.5,1.9,48.1
+4054,Payyanur,Thalassery,Peravoor,11.7565,75.4393,19.04,Commercial,0.9,20.1,17.7,5.2,18.1,1.3,3.7,164.48
+4055,Panoor,Payyanur,Chalad,11.7915,75.6145,4.46,Agricultural,0.7,59.5,33.1,5.0,48.4,0.7,0.7,31.95
+4056,Kannur City,Payyanur,Panniyannur,12.0557,75.6405,19.0,Agricultural,2.4,58.7,26.4,2.6,28.2,1.0,4.1,145.57
+4057,Mattannur,Kannur,Nediyanga,11.7949,75.5361,14.84,Mixed,2.5,34.4,2.7,2.1,47.6,1.5,5.3,90.75
+4058,Iritty,Payyanur,Panniyannur,11.8795,75.6408,7.55,Residential,1.2,28.3,39.7,4.7,33.6,1.7,0.7,28.83
+4059,Kannur City,Payyanur,Chalad,12.245,75.324,9.92,Commercial,0.8,5.1,27.9,5.4,29.5,0.6,3.5,65.33
+4060,Kannur City,Iritty,Edakkad,12.1554,75.4881,8.09,Commercial,2.4,72.2,20.3,1.3,34.2,0.5,5.9,72.71
+4061,Taliparamba,Taliparamba,Kolavallur,12.102,75.4295,4.48,Residential,1.7,63.0,40.0,1.2,18.3,1.3,3.2,13.99
+4062,Thalassery,Kannur,Kodiyeri,12.1895,75.5634,6.27,Agricultural,1.9,71.8,28.9,8.0,33.7,0.4,2.1,76.53
+4063,Taliparamba,Kannur,Kodiyeri,12.2526,75.4863,18.31,Agricultural,0.4,77.2,30.0,5.0,9.6,0.2,3.2,158.03
+4064,Thalassery,Taliparamba,Kuthuparamba,11.7876,75.3289,8.28,Mixed,1.5,14.1,11.2,4.6,17.6,0.6,4.6,64.95
+4065,Chokli,Payyanur,Chalad,11.7666,75.3431,10.66,Mixed,1.2,72.9,37.0,1.7,26.1,1.0,0.6,38.95
+4066,Kuthuparamba,Taliparamba,Pallikunnu,11.9114,75.6564,3.47,Mixed,1.2,11.5,9.6,2.0,37.5,1.8,4.3,10.53
+4067,Valapattanam,Kannur,Kodiyeri,11.7889,75.3097,16.16,Residential,2.7,17.4,33.8,4.5,16.1,1.7,4.6,53.2
+4068,Thalassery,Kannur,Panniyannur,11.8317,75.2998,4.46,Residential,1.8,66.1,22.3,3.9,23.1,1.4,2.7,10.31
+4069,Kannur City,Iritty,Valapattanam,11.9777,75.6877,10.19,Agricultural,2.5,53.8,32.3,1.9,49.0,0.7,4.9,98.84
+4070,Kuthuparamba,Payyanur,Kuthuparamba,12.268,75.454,16.8,Agricultural,1.8,52.6,26.8,2.6,9.3,0.3,3.9,137.4
+4071,Mattannur,Iritty,Pallikunnu,12.0605,75.5365,8.74,Residential,2.4,63.0,27.0,1.1,24.3,0.6,3.5,29.49
+4072,Thalassery,Taliparamba,Valapattanam,11.7242,75.6861,14.78,Commercial,2.6,73.4,9.5,3.2,29.1,1.1,5.3,105.25
+4073,Payyanur,Iritty,Chengalayi,12.0934,75.3965,6.63,Commercial,1.6,20.6,4.0,6.3,3.1,0.7,1.1,58.43
+4074,Panoor,Payyanur,Thottada,12.2203,75.2268,13.41,Commercial,1.1,48.8,1.7,9.1,11.9,1.1,2.6,153.24
+4075,Kuthuparamba,Taliparamba,Nediyanga,11.9245,75.6784,4.74,Mixed,2.5,57.5,2.7,2.9,25.2,0.2,0.6,35.91
+4076,Thalassery,Taliparamba,Kanhirode,11.9396,75.3086,18.42,Residential,0.3,50.3,2.7,8.1,8.8,1.7,3.5,15.54
+4077,Mattannur,Iritty,Thaliparamba,11.7868,75.5015,12.77,Agricultural,2.8,21.9,3.0,4.4,13.6,0.6,3.2,188.65
+4078,Iritty,Kannur,Kadirur,12.1986,75.5095,2.33,Residential,0.9,74.8,2.3,5.7,7.3,0.9,5.3,8.34
+4079,Taliparamba,Taliparamba,Chalad,12.1473,75.5891,9.82,Agricultural,0.7,21.7,31.6,0.5,20.3,0.2,1.4,144.38
+4080,Panoor,Payyanur,Kanhirode,12.1228,75.3795,18.79,Agricultural,0.8,72.3,5.4,8.1,46.4,1.3,5.4,271.63
+4081,Taliparamba,Payyanur,Cherukunnu,12.1373,75.5979,7.72,Commercial,0.8,57.9,3.2,2.4,42.5,0.1,4.1,85.5
+4082,Kannur City,Payyanur,Cherukunnu,11.9773,75.3394,7.38,Agricultural,1.7,48.7,12.7,2.9,45.9,0.9,5.6,81.32
+4083,Kuthuparamba,Taliparamba,Panniyannur,12.0464,75.5012,12.52,Agricultural,2.9,7.7,1.5,2.4,21.4,0.3,1.8,101.49
+4084,Taliparamba,Taliparamba,Kuthuparamba,12.271,75.4721,15.92,Agricultural,2.0,12.2,30.9,3.7,48.2,1.1,1.5,251.83
+4085,Panoor,Thalassery,Thaliparamba,11.8573,75.5464,16.25,Agricultural,0.4,44.6,39.7,2.8,22.7,1.0,1.6,94.63
+4086,Iritty,Kannur,Thottada,12.2372,75.3489,4.06,Commercial,2.3,60.8,13.4,4.9,5.9,1.7,1.7,48.24
+4087,Mattannur,Iritty,Kodiyeri,12.2394,75.3156,18.41,Residential,0.3,42.5,12.4,7.7,23.2,1.5,0.8,64.72
+4088,Kannur City,Payyanur,Edakkad,11.745,75.5507,7.88,Commercial,1.4,31.7,33.4,8.0,20.5,0.3,2.4,51.51
+4089,Chokli,Taliparamba,Azhikode,12.0236,75.582,7.83,Agricultural,1.0,7.1,36.2,8.7,8.1,1.6,0.6,40.19
+4090,Payyanur,Thalassery,Elayavoor,12.205,75.4581,18.64,Residential,1.4,30.7,33.8,7.3,14.0,0.8,0.9,44.46
+4091,Taliparamba,Thalassery,Kuthuparamba,12.2444,75.2899,7.38,Residential,1.9,42.9,38.0,9.7,17.0,1.9,3.3,8.01
+4092,Taliparamba,Thalassery,Panoor,12.1923,75.4395,14.07,Commercial,2.0,71.7,19.9,6.7,10.3,1.0,5.4,87.3
+4093,Kannur City,Payyanur,Kolavallur,11.9123,75.4192,12.4,Mixed,2.5,68.5,23.6,9.1,35.2,0.8,3.2,73.48
+4094,Kuthuparamba,Kannur,Kuthuparamba,12.1728,75.4524,19.08,Agricultural,1.2,34.8,34.1,1.7,42.1,1.0,5.4,108.52
+4095,Payyanur,Iritty,Alakode,12.1196,75.4306,12.92,Mixed,1.4,65.2,32.7,8.0,14.2,1.5,1.9,85.77
+4096,Taliparamba,Taliparamba,Pallikunnu,12.2856,75.5673,13.39,Residential,0.5,38.3,14.9,5.4,42.9,1.7,3.9,14.43
+4097,Mattannur,Payyanur,Mattannur,11.8051,75.6287,9.66,Commercial,2.4,26.3,29.3,8.9,43.8,1.5,5.7,96.37
+4098,Iritty,Taliparamba,Kanhirode,11.9487,75.3823,16.21,Mixed,1.7,62.8,11.4,2.0,2.2,1.9,0.5,114.74
+4099,Iritty,Kannur,Elayavoor,12.041,75.6744,11.53,Agricultural,2.6,45.9,19.6,6.3,43.9,1.3,5.5,168.65
+4100,Payyanur,Iritty,Kolavallur,11.9597,75.2642,2.77,Agricultural,0.9,6.5,12.2,9.8,7.1,0.7,2.6,15.99
